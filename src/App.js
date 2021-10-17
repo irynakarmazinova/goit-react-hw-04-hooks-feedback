@@ -79,3 +79,5 @@ export default function App() {
 }
 
 // ---------------------------------------------------
+// onClick={this.setActiveIdx(index)}-на это место будет возвращаен вызов функции-результат- те вернет undefind
+// onClick={() => this.setActiveIdx(index)}-вернут ссылку на функцию с индеком
